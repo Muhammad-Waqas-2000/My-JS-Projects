@@ -1,0 +1,47 @@
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+button{
+    text-decoration:none ;
+    font-size: 20px;
+}
+
+
+
+.row{
+    max-width: 500px;
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 10px;
+    
+}
+
+
+
+.news{
+    /* display: flex;
+    flex-direction: column;
+    background-color: aqua; */
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.results{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+.row img{
+    width: 100%;
+}
